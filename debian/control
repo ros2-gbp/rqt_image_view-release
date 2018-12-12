@@ -1,0 +1,12 @@
+Source: ros-crystal-rqt-image-view
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-crystal-ament-cmake, ros-crystal-cv-bridge, ros-crystal-geometry-msgs, ros-crystal-image-transport, ros-crystal-qt-gui-cpp, ros-crystal-rclcpp, ros-crystal-rqt-gui, ros-crystal-rqt-gui-cpp, ros-crystal-sensor-msgs, ros-crystal-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-crystal-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-cv-bridge, ros-crystal-geometry-msgs, ros-crystal-image-transport, ros-crystal-qt-gui-cpp, ros-crystal-rclcpp, ros-crystal-rqt-gui, ros-crystal-rqt-gui-cpp, ros-crystal-sensor-msgs, ros-crystal-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

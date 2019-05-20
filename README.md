@@ -1,3 +1,26 @@
+## rqt_image_view (dashing) - 1.0.1-1
+
+The packages in the `rqt_image_view` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing rqt_image_view` on `Mon, 20 May 2019 22:22:02 -0000`
+
+The `rqt_image_view` package was released.
+
+Version of package(s) in repository `rqt_image_view`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_image_view.git
+- release repository: https://github.com/ros2-gbp/rqt_image_view-release.git
+- rosdistro version: `1.0.0-1`
+- old version: `1.0.0-1`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## rqt_image_view (dashing) - 1.0.0-1
 
 The packages in the `rqt_image_view` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing rqt_image_view` on `Thu, 09 May 2019 23:54:28 -0000`

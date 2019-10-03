@@ -1,3 +1,26 @@
+## rqt_image_view (eloquent) - 1.0.2-1
+
+The packages in the `rqt_image_view` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent rqt_image_view` on `Thu, 03 Oct 2019 20:23:49 -0000`
+
+The `rqt_image_view` package was released.
+
+Version of package(s) in repository `rqt_image_view`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_image_view.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.16.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## rqt_image_view (dashing) - 1.0.2-1
 
 The packages in the `rqt_image_view` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing rqt_image_view` on `Wed, 29 May 2019 23:54:37 -0000`

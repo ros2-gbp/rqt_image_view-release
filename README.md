@@ -1,3 +1,26 @@
+## rqt_image_view (foxy) - 1.0.4-1
+
+The packages in the `rqt_image_view` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy rqt_image_view` on `Thu, 28 May 2020 00:27:22 -0000`
+
+The `rqt_image_view` package was released.
+
+Version of package(s) in repository `rqt_image_view`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_image_view.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## rqt_image_view (dashing) - 1.0.4-1
 
 The packages in the `rqt_image_view` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing rqt_image_view` on `Fri, 10 Jan 2020 19:27:50 -0000`

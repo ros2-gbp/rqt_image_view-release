@@ -1,0 +1,309 @@
+ros-rolling-rqt-image-view (1.0.4-2focal) focal; urgency=high
+
+  * fix missing include for QSet (#31 <https://github.com/ros-visualization/rqt_image_view/issues/31>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 10 Jan 2020 05:00:00 -0000
+
+ros-rolling-rqt-image-view (1.0.3-2focal) focal; urgency=high
+
+  * Avoid deprecated API (#28 <https://github.com/ros-visualization/rqt_image_view/issues/28>)
+  * Contributors: Karsten Knese
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 23 Oct 2019 04:00:00 -0000
+
+ros-rolling-rqt-image-view (1.0.0-2focal) focal; urgency=high
+
+  * fix various compiler warnings (#20 <https://github.com/ros-visualization/rqt_image_view/issues/20>)
+  * Notifying developers that rqt_image_view is not available for windows (#19 <https://github.com/ros-visualization/rqt_image_view/issues/19>)
+  * Ros2 port (#18 <https://github.com/ros-visualization/rqt_image_view/issues/18>)
+  * Contributors: Dirk Thomas, Mike Lautman
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 11 Dec 2018 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.13-2focal) focal; urgency=high
+
+  * add build dependency on Qt5 dev package (#15 <https://github.com/ros-visualization/rqt_image_view/issues/15>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 02 May 2018 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.12-2focal) focal; urgency=high
+
+  * save and restore the smooth image check box state (#13 <https://github.com/ros-visualization/rqt_image_view/issues/13>)
+  * allow image rotation in 90° steps (#10 <https://github.com/ros-visualization/rqt_image_view/issues/10>)
+  * use Python distutils to install the global rqt_image_view executable (#12 <https://github.com/ros-visualization/rqt_image_view/issues/12>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 02 May 2018 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.11-2focal) focal; urgency=high
+
+  * use catkin_install_python with scripts (#8 <https://github.com/ros-visualization/rqt_image_view/issues/8>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 25 Oct 2017 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.10-2focal) focal; urgency=high
+
+  * add option to render grid (#7 <https://github.com/ros-visualization/rqt_image_view/issues/7>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 13 Oct 2017 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.9-2focal) focal; urgency=high
+
+  * reduce the size of the image border on the left and right side (#5 <https://github.com/ros-visualization/rqt_image_view/issues/5>)
+  * avoid shrinking the image when the aspect ratio changes (#4 <https://github.com/ros-visualization/rqt_image_view/issues/4>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 27 Jul 2017 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 24 Apr 2017 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.7-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 02 Mar 2017 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.6-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 27 Feb 2017 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.5-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 03 Feb 2017 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.4-2focal) focal; urgency=high
+
+  * add checkbox for optional smooth image scaling (#385 <https://github.com/ros-visualization/rqt_common_plugins/issues/385>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 24 Jan 2017 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.3-2focal) focal; urgency=high
+
+  * generate UI headers in devel space to avoid CMake warning (#401 <https://github.com/ros-visualization/rqt_common_plugins/pull/401>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 02 Nov 2016 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.2-2focal) focal; urgency=high
+
+  * select existing topic (#391 <https://github.com/ros-visualization/rqt_common_plugins/pull/391>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 19 Sep 2016 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.1-2focal) focal; urgency=high
+
+  * add the possibility to publish mouse events (#368 <https://github.com/ros-visualization/rqt_common_plugins/issues/368>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 16 May 2016 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.4.0-2focal) focal; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 27 Apr 2016 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.13-2focal) focal; urgency=high
+
+  * use proper icon for images
+  * add optional topic argument to rqt_image_view
+  * fix width of save-as-image button
+  * Contributors: Dirk Thomas, Vincent Rabaud
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 08 Mar 2016 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.12-2focal) focal; urgency=high
+
+  * Added button to save current image to file
+  * Contributors: Dirk Thomas
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 24 Jul 2015 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.11-2focal) focal; urgency=high
+
+  * fix image shrinking problem (#291 <https://github.com/ros-visualization/rqt_common_plugins/issues/291>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 30 Apr 2015 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.10-2focal) focal; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 01 Oct 2014 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.9-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Aug 2014 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 15 Jul 2014 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.7-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jul 2014 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.6-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 02 Jun 2014 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.5-2focal) focal; urgency=high
+
+  * list image transport topics if parent image topic is not available (#215 <https://github.com/ros-visualization/rqt_common_plugins/issues/215>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 07 May 2014 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.4-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 28 Jan 2014 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.3-2focal) focal; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+  * properly handle aligned images
+  * wrap cv calls in try-catch-block (#201 <https://github.com/ros-visualization/rqt_common_plugins/issues/201>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 08 Jan 2014 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 14 Oct 2013 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.1-2focal) focal; urgency=high
+
+  * fix event handling for rqt_image_view enabling to run multiple instances simultaneously (#66 <https://github.com/ros-visualization/rqt_common_plugins/issues/66>)
+  * add rqt_image_view to global bin (#168 <https://github.com/ros-visualization/rqt_common_plugins/issues/168>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 09 Oct 2013 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.3.0-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 28 Aug 2013 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.17-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 04 Jul 2013 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.16-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 09 Apr 2013 17:33:00 -0000
+
+ros-rolling-rqt-image-view (0.2.15-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 09 Apr 2013 04:02:00 -0000
+
+ros-rolling-rqt-image-view (0.2.14-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 14 Mar 2013 04:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.13-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 12 Mar 2013 02:14:00 -0000
+
+ros-rolling-rqt-image-view (0.2.12-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 11 Mar 2013 17:56:00 -0000
+
+ros-rolling-rqt-image-view (0.2.11-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 08 Mar 2013 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.10-2focal) focal; urgency=high
+
+  * Optimized by taking more advantage of cv_bridge
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 22 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.9-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 17 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.8-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jan 2013 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.7-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 24 Dec 2012 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.6-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 23 Dec 2012 05:00:00 -0000
+
+ros-rolling-rqt-image-view (0.2.5-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 22 Dec 2012 00:11:00 -0000
+
+ros-rolling-rqt-image-view (0.2.4-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 06:13:00 -0000
+
+ros-rolling-rqt-image-view (0.2.3-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 05:24:00 -0000
+
+ros-rolling-rqt-image-view (0.2.2-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 23:29:00 -0000
+
+ros-rolling-rqt-image-view (0.2.1-2focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 22:47:00 -0000
+
+ros-rolling-rqt-image-view (0.2.0-2focal) focal; urgency=high
+
+  * first release of this package into groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 22:39:00 -0000
+
+

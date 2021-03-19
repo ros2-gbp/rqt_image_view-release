@@ -2,6 +2,11 @@
 Changelog for package rqt_image_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.1 (2021-03-19)
+------------------
+* Updated maintainers.
+* Contributors: Mabel Zhang
+
 1.1.0 (2020-08-07)
 ------------------
 * fix segfault on topic change (`#40 <https://github.com/ros-visualization/rqt_image_view/issues/40>`_)

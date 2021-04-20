@@ -1,0 +1,12 @@
+Source: ros-galactic-rqt-image-view
+Section: misc
+Priority: optional
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-galactic-ament-cmake, ros-galactic-cv-bridge, ros-galactic-geometry-msgs, ros-galactic-image-transport, ros-galactic-qt-gui-cpp, ros-galactic-rclcpp, ros-galactic-rqt-gui, ros-galactic-rqt-gui-cpp, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-cv-bridge, ros-galactic-geometry-msgs, ros-galactic-image-transport, ros-galactic-qt-gui-cpp, ros-galactic-rclcpp, ros-galactic-rqt-gui, ros-galactic-rqt-gui-cpp, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

@@ -142,6 +142,7 @@ void ImageView::saveSettings(qt_gui_cpp::Settings& plugin_settings, qt_gui_cpp::
   instance_settings.setValue("num_gridlines", ui_.num_gridlines_spin_box->value());
   instance_settings.setValue("smooth_image", ui_.smooth_image_check_box->isChecked());
   instance_settings.setValue("rotate", rotate_state_);
+  instance_settings.setValue("color_scheme", ui_.color_scheme_combo_box->currentIndex());
 }
 
 void ImageView::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, const qt_gui_cpp::Settings& instance_settings)
@@ -187,6 +188,9 @@ void ImageView::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, con
   if(rotate_state_ >= ROTATE_STATE_COUNT)
     rotate_state_ = ROTATE_0;
   syncRotateLabel();
+
+  int color_scheme = instance_settings.value("color_scheme", ui_.color_scheme_combo_box->currentIndex()).toInt();
+  ui_.color_scheme_combo_box->setCurrentIndex(color_scheme);
 }
 
 void ImageView::updateTopicList()
@@ -313,10 +317,18 @@ void ImageView::onTopicChanged(int index)
 
   if (!topic.isEmpty())
   {
-    image_transport::ImageTransport it(node_);
     const image_transport::TransportHints hints(node_.get(), transport.toStdString());
     try {
-      subscriber_ = it.subscribe(topic.toStdString(), 1, &ImageView::callbackImage, this, &hints);
+      auto subscription_options = rclcpp::SubscriptionOptions();
+      // TODO(jacobperron): Enable once ROS CLI args are supported https://github.com/ros-visualization/rqt/issues/262
+      // subscription_options.qos_overriding_options = rclcpp::QosOverridingOptions::with_default_policies();
+      subscriber_ = image_transport::create_subscription(
+        node_.get(),
+        topic.toStdString(),
+        std::bind(&ImageView::callbackImage, this, std::placeholders::_1),
+        hints.getTransport(),
+        rmw_qos_profile_sensor_data,
+        subscription_options);
       qDebug("ImageView::onTopicChanged() to topic '%s' with transport '%s'", topic.toStdString().c_str(), subscriber_.getTransport().c_str());
     } catch (image_transport::TransportLoadException& e) {
       QMessageBox::warning(widget_, tr("Loading image transport plugin failed"), e.what());

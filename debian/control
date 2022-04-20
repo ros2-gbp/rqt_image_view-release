@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-image-view
+Section: misc
+Priority: optional
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-image-transport, ros-humble-qt-gui-cpp, ros-humble-rclcpp, ros-humble-rqt-gui, ros-humble-rqt-gui-cpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-image-transport, ros-humble-qt-gui-cpp, ros-humble-rclcpp, ros-humble-rqt-gui, ros-humble-rqt-gui-cpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

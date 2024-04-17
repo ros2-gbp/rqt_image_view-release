@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-image-view
+Section: misc
+Priority: optional
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-rolling-ament-cmake, ros-rolling-cv-bridge, ros-rolling-geometry-msgs, ros-rolling-image-transport, ros-rolling-qt-gui-cpp, ros-rolling-rclcpp, ros-rolling-rqt-gui, ros-rolling-rqt-gui-cpp, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-cv-bridge, ros-rolling-geometry-msgs, ros-rolling-image-transport, ros-rolling-qt-gui-cpp, ros-rolling-rclcpp, ros-rolling-rqt-gui, ros-rolling-rqt-gui-cpp, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqt-image-view
+Section: misc
+Priority: optional
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-jazzy-ament-cmake, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-qt-gui-cpp, ros-jazzy-rclcpp, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-cpp, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-qt-gui-cpp, ros-jazzy-rclcpp, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-cpp, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

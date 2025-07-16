@@ -2,14 +2,13 @@
 Changelog for package rqt_image_view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.1 (2025-07-16)
+1.3.2 (2025-07-16)
 ------------------
-* Porting the color scheme for 32FC1 encoding from Noetic (`#90 <https://github.com/ros-visualization/rqt_image_view/issues/90>`_)
-* Contributors: Fabien
+* Porting the color scheme for 32FC1 encoding from Noetic (backport `#90 <https://github.com/ros-visualization/rqt_image_view/issues/90>`_) (`#94 <https://github.com/ros-visualization/rqt_image_view/issues/94>`_)
+* Contributors: mergify[bot]
 
-2.0.0 (2025-07-11)
+1.3.1 (2025-07-10)
 ------------------
-* Deprecated C headers (`#92 <https://github.com/ros-visualization/rqt_image_view/issues/92>`_)
 * Added common linters (`#91 <https://github.com/ros-visualization/rqt_image_view/issues/91>`_)
 * update plugin.h to plugin.hpp (`#86 <https://github.com/ros-visualization/rqt_image_view/issues/86>`_)
 * Contributors: Alejandro Hernández Cordero, Zhaoyuan Cheng

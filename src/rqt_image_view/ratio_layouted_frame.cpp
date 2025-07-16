@@ -30,11 +30,10 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <rqt_image_view/ratio_layouted_frame.h>
 
 #include <assert.h>
 #include <QMouseEvent>
-
-#include <rqt_image_view/ratio_layouted_frame.hpp>
 
 namespace rqt_image_view
 {

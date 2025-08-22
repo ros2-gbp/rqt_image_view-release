@@ -30,11 +30,11 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <rqt_image_view/image_view.h>
 
 #include <vector>
 
 #include <pluginlib/class_list_macros.hpp>
-#include <rqt_image_view/image_view.hpp>
 #include <sensor_msgs/image_encodings.hpp>
 
 #include <cv_bridge/cv_bridge.hpp>
@@ -365,7 +365,7 @@ void ImageView::onTopicChanged(int index)
         topic.toStdString(),
         std::bind(&ImageView::callbackImage, this, std::placeholders::_1),
         hints.getTransport(),
-        rclcpp::SensorDataQoS(),
+        rmw_qos_profile_sensor_data,
         subscription_options);
       qDebug("ImageView::onTopicChanged() to topic '%s' with transport '%s'",
           topic.toStdString().c_str(), subscriber_.getTransport().c_str());

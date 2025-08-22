@@ -1,0 +1,12 @@
+Source: ros-kilted-rqt-image-view
+Section: misc
+Priority: optional
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-cv-bridge, ros-kilted-geometry-msgs, ros-kilted-image-transport, ros-kilted-qt-gui-cpp, ros-kilted-rclcpp, ros-kilted-rqt-gui, ros-kilted-rqt-gui-cpp, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-cv-bridge, ros-kilted-geometry-msgs, ros-kilted-image-transport, ros-kilted-qt-gui-cpp, ros-kilted-rclcpp, ros-kilted-rqt-gui, ros-kilted-rqt-gui-cpp, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

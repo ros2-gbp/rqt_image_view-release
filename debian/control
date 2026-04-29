@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqt-image-view
+Section: misc
+Priority: optional
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libqt6widgets6, qt6-base-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-image-transport, ros-lyrical-qt-gui-cpp, ros-lyrical-rclcpp, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-cpp, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/rqt_image_view
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqt-image-view
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt6widgets6, qt6-base-dev, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-image-transport, ros-lyrical-qt-gui-cpp, ros-lyrical-rclcpp, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-cpp, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.

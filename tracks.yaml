@@ -273,10 +273,10 @@ tracks:
     - git-bloom-generate -y rosdynrpm --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --require-os fedora rhel
     devel_branch: rolling-devel
-    last_version: 2.0.5
+    last_version: 2.0.6
     name: rqt_image_view
     patches: null
-    release_inc: '2'
+    release_inc: '1'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: rolling

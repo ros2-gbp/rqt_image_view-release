@@ -1,3 +1,26 @@
+## rqt_image_view (lyrical) - 2.0.7-1
+
+The packages in the `rqt_image_view` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical rqt_image_view` on `Mon, 12 Oct 2026 13:15:20 -0000`
+
+The `rqt_image_view` package was released.
+
+Version of package(s) in repository `rqt_image_view`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_image_view.git
+- release repository: https://github.com/ros2-gbp/rqt_image_view-release.git
+- rosdistro version: `2.0.5-3`
+- old version: `2.0.5-3`
+- new version: `2.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## rqt_image_view (rolling) - 2.0.7-1
 
 The packages in the `rqt_image_view` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rqt_image_view` on `Mon, 12 Oct 2026 12:30:11 -0000`
